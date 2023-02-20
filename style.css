@@ -1,0 +1,77 @@
+body {
+    margin: 5% 10% 5% 10%;
+    background-color: #f6f5f5;
+    font-family: arial, serrif;
+  }
+  h1,
+  h2,
+  h4,
+  #reflink {
+    font-family: verdana;
+    color: #1687a7;
+  }
+  
+  .head{
+  display: flex;
+  justify-content: center;
+  }
+  p {
+    text-align: justify;
+    color: #393b44;
+  }
+  #biography {
+    background-color: #d3e0ea;
+    border: 1px solid #1687a7;
+  }
+  .bio-text {
+    text-align: center;
+  }
+  .personal {
+    text-align: left;
+    font-size: 14px;
+  }
+  .intro {
+    width: 75%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    vertical-align: top;
+    background-color: white;
+  }
+  .title {
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+  ol{
+      counter-reset: item;
+  }
+  li{
+      display:block;
+      line-height: 1.5em;
+  }
+  a:link,a:visited{
+    color:blue;
+    text-decoration:none;
+    font-style:italic;
+  }
+  a:hover{
+      color:blueviolet;
+      text-decoration: underline;
+  }
+  #bookmarks{
+    background-color: burlywood;
+  }
+  .img{
+    margin-right: 5px;
+  }
+  .issue{
+    padding: 3%;
+  }
+  .solu{
+    padding: 3%;
+  }
+  .ref{
+    padding: 3%;
+  }
+ 
